@@ -2,7 +2,7 @@
 
 $mysqli = mysqli('localhost','root','root','attend');
 
-if($mysqli->connect()) {
+if(!$mysqli->connect_errno) {
 echo "Connected to MySQL server";
 } else {
 echo "Failed to connect to MySQL server";
