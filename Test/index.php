@@ -8,4 +8,4 @@ echo "Connected to MySQL server";
 echo "Failed to connect to MySQL server";
 }
 
-echo "We are ready";
+echo "We are ready for the final release";
