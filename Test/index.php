@@ -7,3 +7,5 @@ echo "Connected to MySQL server";
 } else {
 echo "Failed to connect to MySQL server";
 }
+
+echo "We are ready";
